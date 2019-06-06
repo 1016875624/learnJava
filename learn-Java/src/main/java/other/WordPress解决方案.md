@@ -17,7 +17,7 @@
 find / -name "http*"
 ```
 
-![查找http结果](K:/programing/java/intellij/learnJava/learn-Java/src/main/java/other/img/%E6%9F%A5%E6%89%BEhttp%E7%BB%93%E6%9E%9C.png)
+![查找http结果](img/%E6%9F%A5%E6%89%BEhttp%E7%BB%93%E6%9E%9C.png)
 
 2. 修改httpd.conf的内容
 
@@ -27,7 +27,9 @@ Group apache 改为 Group wordress目录的用户
 并且为wordpress的目录权限复制为 755 chmod -r 755 ./*
 ```
 
-![httpd.conf的内容](K:/programing/java/intellij/learnJava/learn-Java/src/main/java/other/img/httpd.conf%E7%9A%84%E5%86%85%E5%AE%B9.png)
+![httpd.conf的内容](img/httpd.conf%E7%9A%84%E5%86%85%E5%AE%B9.png)
+
+
 
 这样就可以解决这个问题了。
 
