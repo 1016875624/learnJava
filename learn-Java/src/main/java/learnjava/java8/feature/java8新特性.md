@@ -49,15 +49,15 @@ List<String> places = asList("guangdong", "beijing", "shanghai");
 
 中间操作如下图
 
-![中间操作](img\中间操作.png)
+![中间操作](img/中间操作.png)
 
 终端操作如下图
 
-![终端操作](img\终端操作.png)
+![终端操作](img/终端操作.png)
 
 操作大全
 
-![stream操作大全](img\stream操作大全.png)
+![stream操作大全](img/stream操作大全.png)
 
 
 
@@ -260,7 +260,7 @@ Function < Integer, Integer > m = f.andThen( g);
 
 使用函数式接口的例子
 
-![使用函数式接口的例子](img\使用函数式接口的例子.png)
+![使用函数式接口的例子](img/使用函数式接口的例子.png)
 
 ## 疑难杂症
 

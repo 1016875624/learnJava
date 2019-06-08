@@ -120,3 +120,13 @@ max_execution_time = 300
 
 ![固定链接修改](img/固定链接修改.png)
 
+## wordpress上传文件时出现“抱歉，出于安全的考虑，不支持此文件类型。”
+
+修改在WordPress的文件夹下面的`wp-config.php`
+
+添加
+
+```php
+define('ALLOW_UNFILTERED_UPLOADS', true);
+```
+
